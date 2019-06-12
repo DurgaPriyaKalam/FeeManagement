@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/clg">
+    tools:context=".addstudent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="700dp" >
+
+
+
+        <TextView
+            android:id="@+id/textViewFormName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Add Student"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewFormName"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="18dp"
+            android:text="Name:"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <requestFocus />
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="75dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_toEndOf="@+id/textViewName"
+            android:layout_toRightOf="@+id/textViewName"
+            android:background="@drawable/roundedtextview"
+            android:ems="10"
+            android:hint="name"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textViewEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/textViewName"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="145dp"
+            android:text="Email:"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="148dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_toEndOf="@+id/textViewEmail"
+            android:layout_toRightOf="@+id/textViewEmail"
+            android:background="@drawable/roundedtextview"
+            android:ems="10"
+            android:hint="email"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textViewCourse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="224dp"
+            android:layout_marginEnd="282dp"
+            android:layout_marginRight="282dp"
+            android:text="Course:"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="224dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+
+            android:background="@drawable/roundedtextview"
+            android:ems="10"
+            android:hint="course"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textViewFee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="297dp"
+            android:layout_marginEnd="313dp"
+            android:layout_marginRight="313dp"
+            android:text="Fee:"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextFee"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="299dp"
+            android:layout_marginEnd="31dp"
+            android:layout_marginRight="31dp"
+            android:background="@drawable/roundedtextview"
+            android:ems="10"
+            android:hint="fee"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textViewPaid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="360dp"
+            android:text="Paid:"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextPaid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textViewPaid"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="363dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_toEndOf="@+id/textViewPaid"
+            android:layout_toRightOf="@+id/textViewPaid"
+            android:background="@drawable/roundedtextview"
+            android:ems="10"
+            android:hint="paid"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textViewDue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="430dp"
+            android:text="Due:"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextDue"
+            android:layout_width="263dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="430dp"
+            android:layout_marginEnd="31dp"
+            android:layout_marginRight="31dp"
+            android:layout_toRightOf="@+id/textViewDue"
+            android:background="@drawable/roundedtextview"
+            android:ems="10"
+            android:hint="due"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textViewAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="500dp"
+            android:text="Address:"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextAddress"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginEnd="31dp"
+            android:layout_marginRight="31dp"
+            android:layout_toRightOf="@+id/textViewAddress"
+            android:background="@drawable/roundedtextview"
+            android:ems="10"
+            android:hint="address"
+            android:inputType="text|textMultiLine" />
+
+
+        <TextView
+            android:id="@+id/textViewContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="570dp"
+            android:text="Contact:"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/editTextContact"
+            android:layout_width="263dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="570dp"
+            android:layout_marginEnd="31dp"
+            android:layout_marginRight="31dp"
+            android:layout_toRightOf="@+id/textViewContact"
+            android:background="@drawable/roundedtextview"
+            android:ems="10"
+            android:hint="contact"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textViewCountry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="630dp"
+            android:text="Country:"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+        <Spinner
+            android:id="@+id/spinnerCountry"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="36dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.498"
+            android:layout_toRightOf="@+id/textViewCountry"
+            android:layout_marginTop="630dp"
+
+
+            />
+        <TextView
+            android:id="@+id/textViewState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="690dp"
+            android:text="State:"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+        <Spinner
+            android:id="@+id/spinnerState"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginLeft="36dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.498"
+            android:layout_toRightOf="@+id/textViewState"
+            android:layout_marginTop="690dp"
+
+
+            />
+
+        <TextView
+            android:id="@+id/textViewCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="750dp"
+            android:text="City:"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spinnerCity"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginLeft="36dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.498"
+            android:layout_toRightOf="@+id/textViewCity"
+            android:layout_marginTop="750dp"
+
+
+            />
+
+        <Button
+            android:id="@+id/RegisterButton"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/textViewCity"
+            android:layout_marginStart="33dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="30dp"
+
+            android:background="@drawable/roundedbutton"
+            android:text="Submit"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/Clear_Button"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/spinnerCity"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="33dp"
+            android:layout_marginRight="33dp"
+            android:background="@drawable/roundedbutton"
+            android:text="Clear"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+</ScrollView>

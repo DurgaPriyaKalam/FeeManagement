@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AndroidFeeManagementSystem</string>
+    <string name="nameerror">Enter Valid Name</string>
+    <string name="passworderror">Enter Valid Password</string>
+    <string name="emailerror">Enter Valid Email</string>
+    <string name="mobileerror">Enter Valid Mobile Number</string>
+</resources>
